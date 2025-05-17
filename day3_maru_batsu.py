@@ -115,20 +115,27 @@ while True:
 	print(RED)
 	print("先攻の番です")
 	print(END)
+
 	i = input("i: ")
 	j = input("j: ")
 	#print("i: " + str(i) + ", j: " +str(j))
-	#board[int(i)][int(j)] = 1
+
 	check_input(i, j, 1)
+
 	print_board_index()
+
 	check_game()
+
 	print(BLUE)
 	print("後攻の番です")
 	print(END)
+
 	i = input("i: ")
 	j = input("j: ")
 	#print("i: " + str(i) + ", j: " +str(j))
-	#board[int(i)][int(j)] = 2
+
 	check_input(i, j, 2)
+
 	print_board_index()
+
 	check_game()

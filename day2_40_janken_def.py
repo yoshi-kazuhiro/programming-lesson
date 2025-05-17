@@ -7,73 +7,73 @@ BLUE = '\033[34m'
 END = '\033[0m'
 
 def print_aizu():
-    print("じゃーん")
+	print("じゃーん")
 
-    time.sleep(1)
+	time.sleep(1)
 
-    print("けーん")
+	print("けーん")
 
-    time.sleep(1)
+	time.sleep(1)
 
-    print("ぽん！")
+	print("ぽん！")
 
-    f = random.random()
-    #print(str(f))
+	f = random.random()
+	#print(str(f))
 
-    i = f * 1000
-    #print(str(i))
+	i = f * 1000
+	#print(str(i))
 
-    j = int(i)
-    #print(str(k))
+	j = int(i)
+	#print(str(k))
 
-    k = j % 3
-    #print(str(j))
-    
-    return k
+	k = j % 3
+	#print(str(j))
+	
+	return k
 
 def print_aite(k):
-    if (k == 2):
-        print(RED)
-        print("パー")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print("□ □ □ □ □ ■ □ □ □ □ □ ")
-        print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
-        print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
-        print("□ □ □ ■ □ ■ □ ■ □ ■ □ ")
-        print("■ □ □ ■ □ ■ □ ■ □ ■ □ ")
-        print("□ ■ □ ■ □ ■ □ ■ □ ■ □ ")
-        print("□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print(END)
-    elif (k == 0):
-        print(GREEN)
-        print("グー")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
-        print("□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ ■ □ ■ □ ■ □ ■ □ ■ □ ")
-        print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print(END)
-    elif (k == 1):
-        print(BLUE)
-        print("チョキ")
-        print("□ □ ■ □ □ ■ □ □ □ □ □ ")
-        print("□ □ ■ □ □ ■ □ □ □ □ □ ")
-        print("□ □ ■ □ □ ■ □ □ □ □ □ ")
-        print("□ □ ■ □ ■ □ □ □ □ □ □ ")
-        print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
-        print("□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ ■ □ ■ □ ■ □ ■ □ ■ □ ")
-        print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
-        print("□ □ □ □ □ □ □ □ □ □ □ ")
-        print(END)
+	if (k == 2):
+		print(RED)
+		print("パー")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print("□ □ □ □ □ ■ □ □ □ □ □ ")
+		print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
+		print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
+		print("□ □ □ ■ □ ■ □ ■ □ ■ □ ")
+		print("■ □ □ ■ □ ■ □ ■ □ ■ □ ")
+		print("□ ■ □ ■ □ ■ □ ■ □ ■ □ ")
+		print("□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print(END)
+	elif (k == 0):
+		print(GREEN)
+		print("グー")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
+		print("□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ ■ □ ■ □ ■ □ ■ □ ■ □ ")
+		print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print(END)
+	elif (k == 1):
+		print(BLUE)
+		print("チョキ")
+		print("□ □ ■ □ □ ■ □ □ □ □ □ ")
+		print("□ □ ■ □ □ ■ □ □ □ □ □ ")
+		print("□ □ ■ □ □ ■ □ □ □ □ □ ")
+		print("□ □ ■ □ ■ □ □ □ □ □ □ ")
+		print("□ □ □ ■ □ ■ □ ■ □ □ □ ")
+		print("□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ ■ □ ■ □ ■ □ ■ □ ■ □ ")
+		print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ □ ■ ■ ■ ■ ■ ■ ■ □ □ ")
+		print("□ □ □ □ □ □ □ □ □ □ □ ")
+		print(END)
 
 a = print_aizu()
 print_aite(a)
