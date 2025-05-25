@@ -3,18 +3,6 @@ GREEN = '\033[32m'
 BLUE = '\033[34m'
 END = '\033[0m'
 
-print("□ □ □ ")
-print("□ □ □ ")
-print("□ □ □ ")
-
-array = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]
-
-for i in range(0, 3):
-	for j in range(0, 3):
-		print(str(array[i][j]) + ", ", end="")
-	print("")
-
-
 board = [ [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 def print_board(): 
@@ -90,7 +78,7 @@ def check_game():
 		(board[0][1] == 1 and board[1][1] == 1 and board[2][1] == 1) or \
 		(board[0][2] == 1 and board[1][2] == 1 and board[2][2] == 1): 
 			print(RED)
-			print("===先行の勝ち！===")
+			print("===先攻の勝ち！===")
 			print(END)
 			return
 	if (board[0][0] == 2 and board[1][1] == 2 and board[2][2] == 2) or \
